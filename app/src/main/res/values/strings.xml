@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">SimpleAutoValidator</string>
+  <string name="emailErrorMessage">email error message</string>
+  <string name="emailSuccessMessage">email success message</string>
+  <string name="ipErrorMessage">ip error message</string>
+  <string name="ipSuccessMessage">ip success message</string>
+  <string name="urlErrorMessage">url error message</string>
+  <string name="urlSuccessMessage">url success message</string>
+  <string name="integerOnlyErrorMessage">integerOnly error message</string>
+  <string name="integerOnlySuccessMessage">integerOnly success message</string>
+  <string name="minMaxErrorMessage">min max error message</string>
+  <string name="minMaxSuccessMessage">min max success message</string>
+  <string name="customRegexErrorMessage">custom regex error message</string>
+  <string name="customRegexSuccessMessage">custom regex success message</string>
+</resources>

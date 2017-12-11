@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.massivcode.example.simpleautovalidator.MainActivity">
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/emailTil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/emailTiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="email" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/ipTil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/ipTiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="ip" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/urlTil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/urlTiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="url" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/integerOnlyTil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/integerOnlyTiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="integerOnly" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/customRegexTil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/customRegexTiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="custom regex : alphabet only" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/min3max12Til"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/min3max12Tiet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="min 3 max 12" />
+
+  </android.support.design.widget.TextInputLayout>
+
+
+  <TextView
+    android:id="@+id/submitView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#2196f3"
+    android:text="Submit TextView"
+    android:textColor="@android:color/white" />
+
+</LinearLayout>
